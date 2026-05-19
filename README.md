@@ -1,204 +1,261 @@
 <div align="center">
 
-# SmartLearn
+# 🎓 SmartLearn
 
-**A full-featured Smart Learning System built with React, Vite, and Tailwind CSS**
+### A Modern Smart Learning System Built with React, Vite & Tailwind CSS
 
-![React](https://img.shields.io/badge/React-18-black?style=flat-square&logo=react)
-![Vite](https://img.shields.io/badge/Vite-5-black?style=flat-square&logo=vite)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3-black?style=flat-square&logo=tailwindcss)
-![React Router](https://img.shields.io/badge/React_Router-v6-black?style=flat-square&logo=reactrouter)
-![Recharts](https://img.shields.io/badge/Recharts-2-black?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-black?style=flat-square)
+<p align="center">
+  SmartLearn is a sleek and interactive learning platform designed for modern students.  
+  It combines course management, quizzes, analytics, discussion forums, certificates, and AI-ready architecture into one responsive educational experience.
+</p>
 
-[Live Demo](#) · [Report a Bug](#) · [Request Feature](#)
+<br/>
+
+![React](https://img.shields.io/badge/React-18-000000?style=for-the-badge&logo=react)
+![Vite](https://img.shields.io/badge/Vite-5-000000?style=for-the-badge&logo=vite)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3-000000?style=for-the-badge&logo=tailwindcss)
+![React Router](https://img.shields.io/badge/React_Router-v6-000000?style=for-the-badge&logo=reactrouter)
+![Recharts](https://img.shields.io/badge/Recharts-2-000000?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-000000?style=for-the-badge)
+
+<br/>
+
+[Live Demo](#) • [Features](#-features) • [Installation](#-installation) • [Tech Stack](#-tech-stack)
 
 </div>
 
 ---
 
-## About
+# 📚 About The Project
 
-SmartLearn is a production-grade learning management system interface built as a mini project by Group 5 at School of Future Tech, ITM Skills University. It simulates a complete educational platform — from a public landing page to a full student dashboard — with no backend required.
+SmartLearn is a full-featured **Learning Management System (LMS)** developed as a mini project by **Group 5** at **School of Future Tech, ITM Skills University**.
 
-The design follows a clean black-and-white aesthetic inspired by modern productivity tools, built entirely with React component architecture, client-side routing, and a centralized mock data layer.
+The platform simulates a complete online education ecosystem — including:
+
+- Student Dashboard
+- Course Management
+- Interactive Quizzes
+- Progress Tracking
+- Discussion Forums
+- Learning Resources
+- Completion Certificates
+- Instructor Profiles
+
+The entire project is built using **React component architecture**, **client-side routing**, and a centralized mock-data structure without requiring a backend.
 
 ---
 
-## Screenshots
+# ✨ Features
 
-> Add your screenshots here after running the project locally.
+## 🏠 Landing Page
+- Modern hero section
+- Features showcase
+- Testimonials
+- Pricing section
+- Fully responsive UI
+
+## 📖 Course Catalog
+- Browse available courses
+- Search functionality
+- Category filtering
+- Difficulty level filtering
+- Progress indicators
+
+## 🎥 Video Learning System
+- Simulated video player
+- Lesson navigation
+- Progress tracking
+- Interactive learning flow
+
+## 🧠 Quiz Engine
+- Multiple-choice quizzes
+- Instant feedback
+- Score calculation
+- Quiz completion tracking
+
+## 📊 Analytics Dashboard
+- Learning statistics
+- Bar charts
+- Line charts
+- Student progress overview
+
+## 💬 Discussion Forum
+- Threaded discussions
+- Instructor badges
+- Replies and interactions
+- Community-based learning
+
+## 📂 Learning Resources
+- Downloadable materials
+- File filtering
+- Resource categorization
+
+## 🏆 Certificates
+- Printable completion certificates
+- Unique certificate IDs
+- Course-based generation
+
+## 👨‍🏫 Instructor Profiles
+- Instructor cards
+- Detailed modal popups
+- Experience and expertise showcase
 
 ---
 
-## Features
+# 🛠 Tech Stack
 
-| Feature | Description |
+| Technology | Purpose |
 |---|---|
-| **Landing Page** | Hero, features, instructors, testimonials, and pricing |
-| **Course Catalog** | Search, category filter, level filter, progress badges |
-| **Course Detail** | Overview, Lessons, Quizzes, and Resources tabs |
-| **Video Player** | Simulated player with scrubbing and lesson navigation |
-| **Interactive Quiz** | A/B/C/D questions with instant feedback and scoring |
-| **Progress Dashboard** | Bar chart and line chart analytics via Recharts |
-| **Discussion Forum** | Threaded posts with instructor badges and replies |
-| **Resources** | File library with type filter and download simulation |
-| **Certificates** | Printable completion certificate with unique ID |
-| **Instructor Profiles** | Cards with full-detail modal pop-up |
+| **React 18** | Frontend UI Library |
+| **Vite 5** | Development & Build Tool |
+| **Tailwind CSS 3** | Styling Framework |
+| **React Router v6** | Routing |
+| **Recharts** | Analytics & Charts |
+| **Lucide React** | Icons |
+| **clsx + tailwind-merge** | Dynamic class management |
 
 ---
 
-## Tech Stack
+# 📁 Project Structure
 
-- **React 18** — Component-based UI with hooks
-- **Vite 5** — Fast development server and bundler
-- **Tailwind CSS 3** — Utility-first styling
-- **React Router v6** — Nested client-side routing
-- **Recharts 2** — Bar and line chart visualizations
-- **Lucide React** — SVG icon library
-- **clsx + tailwind-merge** — Conditional class management
-- **DM Sans** — Google Font for clean typography
-
----
-
-## Project Structure
-
-```
+```bash
 smart-learning/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── data/
+│   ├── lib/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
 ├── index.html
 ├── vite.config.js
 ├── tailwind.config.js
 ├── postcss.config.js
-└── src/
-    ├── main.jsx
-    ├── App.jsx
-    ├── index.css
-    ├── lib/
-    │   └── utils.js              # cn() utility
-    ├── data/
-    │   └── mockData.js           # All app data (courses, quizzes, forum, etc.)
-    ├── components/
-    │   ├── ui.jsx                # Button, Card, Badge, Input, ProgressBar...
-    │   ├── Layout.jsx            # Authenticated shell (Sidebar + Navbar + Outlet)
-    │   ├── Sidebar.jsx           # Left navigation
-    │   └── Navbar.jsx            # Top bar with search and profile
-    └── pages/
-        ├── Landing.jsx           # Public marketing page
-        ├── Dashboard.jsx         # Student home
-        ├── Courses.jsx           # Course catalog
-        ├── CoursePage.jsx        # Course detail
-        ├── VideoPlayer.jsx       # Video lesson player
-        ├── Quiz.jsx              # Quiz engine
-        ├── Progress.jsx          # Analytics dashboard
-        ├── Forum.jsx             # Discussion forum
-        ├── Resources.jsx         # File library
-        ├── Certificate.jsx       # Completion certificate
-        └── Instructors.jsx       # Instructor profiles
+└── package.json
 ```
 
 ---
 
-## Getting Started
+# 🚀 Installation
 
-### Prerequisites
+## 1️⃣ Clone the Repository
 
-- Node.js **v18 or higher**
-- npm (comes with Node.js)
-
-Check your version:
 ```bash
-node -v
-npm -v
+git clone https://github.com/your-username/smart-learning.git
 ```
 
-### Installation
+## 2️⃣ Navigate into the Project
 
-**1. Create the project**
 ```bash
-npm create vite@latest smart-learning -- --template react
 cd smart-learning
 ```
 
-**2. Install dependencies**
+## 3️⃣ Install Dependencies
+
 ```bash
-npm install react-router-dom recharts lucide-react clsx tailwind-merge
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
+npm install
 ```
 
-**3. Copy all source files**
+## 4️⃣ Start Development Server
 
-Copy all files from this repository into their respective paths inside the `src/` directory, and replace `index.html`, `vite.config.js`, `tailwind.config.js`, and `postcss.config.js` in the project root.
-
-**4. Start the development server**
 ```bash
 npm run dev
 ```
 
-**5. Open in your browser**
-```
+---
+
+# 🌐 Open in Browser
+
+```bash
 http://localhost:5173
 ```
 
-> Port may differ if 5173 is already in use — check the terminal output for the correct URL.
+> If port `5173` is occupied, Vite will automatically assign another port.
 
 ---
 
-## Available Routes
+# 🧭 Available Routes
 
-| Route | Page | Description |
-|---|---|---|
-| `/` | Landing | Public landing page |
-| `/app` | Dashboard | Student home with stats |
-| `/app/courses` | Courses | Course catalog |
-| `/app/courses/:id` | Course Detail | Individual course page |
-| `/app/courses/:id/video/:lessonId` | Video Player | Lesson video |
-| `/app/quiz/:id` | Quiz | Interactive quiz (try `/app/quiz/1`) |
-| `/app/progress` | Progress | Analytics and charts |
-| `/app/forum` | Forum | Discussion board |
-| `/app/resources` | Resources | File downloads |
-| `/app/certificate/:courseId` | Certificate | Try `/app/certificate/4` |
-| `/app/instructors` | Instructors | Instructor profiles |
+| Route | Description |
+|---|---|
+| `/` | Landing Page |
+| `/app` | Dashboard |
+| `/app/courses` | Course Catalog |
+| `/app/courses/:id` | Course Details |
+| `/app/courses/:id/video/:lessonId` | Video Player |
+| `/app/quiz/:id` | Quiz Page |
+| `/app/progress` | Progress Dashboard |
+| `/app/forum` | Discussion Forum |
+| `/app/resources` | Resources |
+| `/app/certificate/:courseId` | Certificate Generator |
+| `/app/instructors` | Instructor Profiles |
 
 ---
 
-## Build for Production
+# 📸 Screenshots
+
+> Add screenshots of your project here.
+
+### Suggested Screenshots
+- Landing Page
+- Dashboard
+- Courses Page
+- Quiz System
+- Progress Charts
+- Certificate Page
+
+---
+
+# ⚡ Build for Production
 
 ```bash
 npm run build
 ```
 
-Preview the production build:
+Preview production build:
+
 ```bash
 npm run preview
 ```
 
-The output will be in the `dist/` folder, ready to deploy to Vercel, Netlify, or any static host.
+The production-ready files will be generated inside the `dist/` folder.
 
 ---
 
-## Deployment
+# 🚀 Deployment
 
-### Deploy to Vercel (recommended)
+## Deploy on Vercel
 
 ```bash
 npm install -g vercel
 vercel
 ```
 
-### Deploy to Netlify
+## Deploy on Netlify
 
-Drag and drop the `dist/` folder into [netlify.com/drop](https://netlify.com/drop), or connect your GitHub repository for automatic deployments.
+Drag and drop the `dist/` folder into:
 
-### Deploy to GitHub Pages
+```txt
+https://netlify.com/drop
+```
+
+## Deploy on GitHub Pages
+
+Install gh-pages:
 
 ```bash
 npm install -D gh-pages
 ```
 
-Add to `package.json`:
+Add this to `package.json`:
+
 ```json
-"homepage": "https://<your-username>.github.io/smart-learning",
+"homepage": "https://your-username.github.io/smart-learning",
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
@@ -206,13 +263,14 @@ Add to `package.json`:
 ```
 
 Then run:
+
 ```bash
 npm run deploy
 ```
 
 ---
 
-## Dependencies
+# 📦 Dependencies
 
 ```json
 {
@@ -224,39 +282,37 @@ npm run deploy
     "lucide-react": "^0.395.0",
     "clsx": "^2.1.1",
     "tailwind-merge": "^2.3.0"
-  },
-  "devDependencies": {
-    "vite": "^5.2.11",
-    "@vitejs/plugin-react": "^4.3.0",
-    "tailwindcss": "^3.4.3",
-    "postcss": "^8.4.38",
-    "autoprefixer": "^10.4.19"
   }
 }
 ```
 
 ---
 
-## Team
+# 👥 Team
 
-**Group 5 — Problem Statement 05**
-School of Future Tech, ITM Skills University | Cohort: Larry Page | 2025–2029
+## Group 5 — Problem Statement 05
 
-| Name | Role |
-|---|---|
- Subrata Panda 
- Japji Kaur 
- Sanika Kangane 
- Parth Sarova 
+**School of Future Tech, ITM Skills University**  
+**Cohort:** Larry Page  
+**Academic Year:** 2025 – 2029
+
+| Team Members |
+|---|
+| Subrata Panda |
+| Japji Kaur |
+| Sanika Kangane |
+| Parth Sarova |
 
 ---
 
-## License
+# 📄 License
 
-This project is for academic purposes as part of the ITM Skills University mini project curriculum.
+This project is created for **academic and educational purposes** as part of the ITM Skills University mini project curriculum.
 
 ---
 
 <div align="center">
-Made with React by Group 5 — School of Future Tech
+
+#### SmartLearn • Group 5 • ITM Skills University
+
 </div>
