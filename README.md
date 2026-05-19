@@ -198,20 +198,6 @@ http://localhost:5173
 
 ---
 
-# 📸 Screenshots
-
-> Add screenshots of your project here.
-
-### Suggested Screenshots
-- Landing Page
-- Dashboard
-- Courses Page
-- Quiz System
-- Progress Charts
-- Certificate Page
-
----
-
 # ⚡ Build for Production
 
 ```bash
