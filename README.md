@@ -5,11 +5,12 @@
 ### A Modern Smart Learning System Built with React, Vite & Tailwind CSS
 
 <p align="center">
-  SmartLearn is a sleek and interactive learning platform designed for modern students.  
-  It combines course management, quizzes, analytics, discussion forums, certificates, and AI-ready architecture into one responsive educational experience.
+  SmartLearn is a sleek and interactive learning platform designed for modern students.
+  It combines course management, quizzes, analytics, discussion forums,
+  certificates, and AI-ready architecture into one responsive educational experience.
 </p>
 
-<br/>
+<br>
 
 ![React](https://img.shields.io/badge/React-18-000000?style=for-the-badge&logo=react)
 ![Vite](https://img.shields.io/badge/Vite-5-000000?style=for-the-badge&logo=vite)
@@ -18,7 +19,7 @@
 ![Recharts](https://img.shields.io/badge/Recharts-2-000000?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-000000?style=for-the-badge)
 
-<br/>
+<br>
 
 [Live Demo](#) • [Features](#-features) • [Installation](#-installation) • [Tech Stack](#-tech-stack)
 
@@ -30,7 +31,7 @@
 
 SmartLearn is a full-featured **Learning Management System (LMS)** developed as a mini project by **Group 5** at **School of Future Tech, ITM Skills University**.
 
-The platform simulates a complete online education ecosystem — including:
+The platform simulates a complete online education ecosystem, including:
 
 - Student Dashboard
 - Course Management
@@ -119,7 +120,7 @@ The entire project is built using **React component architecture**, **client-sid
 # 📁 Project Structure
 
 ```bash
-smart-learning/
+Smart-Learning-System/
 │
 ├── public/
 │
@@ -152,7 +153,7 @@ git clone https://github.com/your-username/smart-learning.git
 ## 2️⃣ Navigate into the Project
 
 ```bash
-cd smart-learning
+cd Smart-Learning-System
 ```
 
 ## 3️⃣ Install Dependencies
@@ -307,12 +308,12 @@ npm run deploy
 
 # 📄 License
 
-This project is created for **academic and educational purposes** as part of the ITM Skills University mini project curriculum.
+This project is created for academic and educational purposes as part of the ITM Skills University mini project curriculum.
 
 ---
 
 <div align="center">
 
-#### SmartLearn • Group 5 • ITM Skills University
+## SmartLearn • Group 5 • ITM Skills University
 
 </div>
